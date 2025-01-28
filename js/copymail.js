@@ -1,4 +1,6 @@
-function copyEmail() {
+function copyEmail(event) {
+    // Event'in varsayılan davranışını engelle(sayfa yenilenmesin)
+      event.preventDefault();
     // Email adresini seç
     var emailText = document.getElementById('email').innerText;
 
