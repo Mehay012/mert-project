@@ -40,7 +40,7 @@
 
 @media (max-width: 767px) {
   .header_section .header_top .social_box {
-    display: none;
+    display:contents;
   }
 
   .header_section .header_top .contact_nav a span {
@@ -86,9 +86,21 @@
 }
 
 @media (max-width: 576px) {
-  .header_section .header_top .contact_nav a span {
-    display: none;
+  .header_section .header_top .contact_nav {
+    display: flex;
+    align-items: center; 
+    justify-content: flex-start; 
   }
+
+  .header_section .header_top .contact_nav a span {
+    display: flex;
+  }
+
+  .header_section .header_top .contact_nav a {
+    display: flex;
+    align-items: center; 
+  }
+}
 
   .client_section .carousel-control-prev,
   .client_section .carousel-control-next {
@@ -99,7 +111,6 @@
   .carousel_btn-box {
     margin-top: 30px;
   }
-}
 
 @media (max-width: 480px) {}
 
