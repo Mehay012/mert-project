@@ -20,5 +20,5 @@ function copyEmail() {
     document.body.removeChild(tempInput);
 
     // Kullanıcıya kopyalandığını bildiren bir mesaj göster
-    alert('Email adresi kopyalandı: ' + emailText);
+    //alert('Email adresi kopyalandı: ' + emailText);
   }
